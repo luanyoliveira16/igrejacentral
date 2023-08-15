@@ -1,0 +1,99 @@
+.register {
+          text-align: center;
+          background-color: #632F8A;
+          color: #fff;
+          display: flex;
+          flex-direction: column;
+          margin-top: 30px;    
+}
+
+
+.register h1{
+     font-family: 'Montserrat', cursive;
+          font-weight: 500 !important;
+          font-size: 73px;
+}
+
+form{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+
+.endereço{
+     width: 30px;
+     height: 30px;
+     filter: brightness(0) invert(1);
+
+}
+
+
+.endereço2{
+     margin-top:-200px;
+}
+
+
+        
+.logo{
+     filter: brightness(0) invert(1);
+     width: 200px;
+     height: 200px;
+     padding-top: -60px;
+} 
+ 
+
+ div nav {
+     display: flex;
+ }
+
+ .info{
+     display: flex; 
+     
+ }
+
+ .info p{
+     font-family: 'Montserrat', cursive;
+     font-size: 16px;
+ }
+
+ .organizationinfos{
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+ }
+
+.iconform{
+     display: flex;
+     justify-content: center;
+}
+
+ .iconform a {
+     color: #000; 
+     background-color: #fff; 
+     padding: 8px 9px; 
+     border-radius: 100px;
+     transition: 0.3s;
+     margin-left: 10px;
+     
+}
+
+.order{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+}
+
+@media (max-width: 1106px){
+    .texto p{
+          font-size: 15px;
+     }
+
+     .logo{
+          filter: brightness(0) invert(1);
+          width: 150px;
+          height: 150px;
+          padding-top: -60px;
+     }
+}
+   
+ 

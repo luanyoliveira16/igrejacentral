@@ -1,0 +1,80 @@
+.rodape{
+          background-color: #fff; 
+          color: #000; 
+          text-align: center;
+          
+}
+
+.nome{
+         width: 95px;
+         height: 70px;
+}
+
+.credito a {
+      margin-top: 35px;
+      text-decoration: none;
+      color: #ec027b;
+      font-size: 24px;
+      font-family: BEBAS;
+}
+
+.credito{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+
+.copy{
+          margin-bottom: -20px;
+          margin-top: 20px;
+}
+
+
+
+@media (max-width: 1106px){
+     
+    .nome{
+          width: 80px;
+          height: 30px;
+    }
+
+    .credito a {
+      margin-top: -10px;
+      text-decoration: none;
+      color: #ec027b;
+      font-size: 22px;
+      font-family: BEBAS;
+}
+
+    .copy{
+          margin-bottom: 5px;
+    }
+
+    .credito{
+          display: flex;
+          align-items: center;
+          font-size: 15px;
+
+}
+
+}
+
+@media (max-width: 900px){
+     
+          .nome{
+                width: 80px;
+                height: 30px;
+          }
+      
+          .copy{
+                margin-bottom: 5px;
+          }
+      
+          .credito{
+                display: flex;
+                align-items: center;
+                font-size: 12px;
+      
+      }
+      
+}
