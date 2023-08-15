@@ -34,7 +34,7 @@ const Register = () => {
           <p data-aos="fade-up" data-aos-duration="600"><i class="bi bi-envelope-fill"></i> contato@familiacentral.com.br</p>
           <p data-aos="fade-up" data-aos-duration="900"><i class="bi bi-whatsapp"></i> +55 (21) 3019-0987</p>
           <p data-aos="fade-up" data-aos-duration="1200"><i class="bi bi-geo-alt-fill"></i> IBCRA – Igreja Batista Central em Ricardo de Albuquerque</p>
-          <p data-aos="fade-up" data-aos-duration="1500">R. Umbuzeiro, 260 - Ricardo de Albuquerque, Rio de Janeiro - RJ, 21620-610</p>
+          <p data-aos="fade-up" data-aos-duration="1500">Rua Umbuzeiro, 260 - Ricardo de Albuquerque, Rio de Janeiro - RJ, 21620-610</p>
         </div>
       </div>
     </div>
