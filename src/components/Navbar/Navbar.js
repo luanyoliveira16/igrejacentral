@@ -4,7 +4,7 @@ import About from "../../pages/Home/Home.js";
 import Forms from "../Forms/Forms.js";
 import Footer from "../Footer/Footer.js";
 import ReactDOM from 'react-dom';
-import Logo from '../../assets/logo.png';
+import Logo from '../../assets/logoCompleto.png';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 

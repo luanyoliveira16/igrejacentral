@@ -8,13 +8,15 @@
   margin-bottom:140px;
   z-index:5000;
   background-color: #000;
+ 
 
 }
 
+
 .logo{
-      width: 100px;
+      width: 300px;
       height: 100px;
-      filter: brightness(0) invert(1);
+      margin-left: -500px;
 }
 
 .logo:hover {
@@ -25,6 +27,8 @@
 
 .container{
           padding: 0;
+          display: flex;
+          justify-content: center;
        
 }
 
@@ -151,6 +155,10 @@
     display: block;
   }
 
+  .logo{
+  margin-left: 15px;
+  }
+  
   .navbar ul {
     display: none;
   }

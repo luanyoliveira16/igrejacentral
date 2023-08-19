@@ -7,6 +7,8 @@ import Foto6 from '../../assets/foto6.jpg';
 import Seta from '../../assets/seta.png';
 import Forms from "../../components/Forms/Forms.js";
 import styles from "./Home.module.css"
+import Infos from "../../components/Infos/Infos.js";
+
 
 
 const Home = () => {
@@ -79,6 +81,7 @@ const Home = () => {
 </section>
 
 
+
 <div styles="background-color: #fff;" class="" id="quem-somos">
   <label class="padding-top-label"></label>
   <div styles="" class="container">
@@ -120,11 +123,30 @@ const Home = () => {
         <p class="fonttextvideo font-p-mobile">Cultos aos <b>domingos</b> às 9h e 19h, <b>terças</b> às 8h e <b>quartas </b> às 19h30.</p>
       </div>
 
+
+
+
+
+      <Infos />
+
+
+
+
+
+
+
+
+
+
+
+
+
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2186.3791666098878!2d-43.4033800291301!3d-22.83812770494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9963da49d66473%3A0x7b579caaf6d007f7!2sIGREJA%20BATISTA%20CENTRAL%20RICARDO%20ALBUQUERQUE!5e0!3m2!1spt-BR!2sbr!4v1690502155324!5m2!1spt-BR!2sbr" className={styles.mapa} width="400" height="450" styles="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
       
     </div>
   </div>
+          
 
 </div>
 
