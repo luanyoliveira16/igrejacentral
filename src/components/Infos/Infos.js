@@ -1,8 +1,9 @@
 import styles from "./Infos.module.css";
-import fotoConferencia from "../../assets/imagesInfos/conferenciaJovem.jpg";
-import fotoObreiros from "../../assets/imagesInfos/obreiros.jpg";
+import retiro from "../../assets/imagesInfos/retiro.jpg";
+import escolaDeMusica from "../../assets/imagesInfos/escolamusica.jpg";
 import fotoGeracaoAtiva from "../../assets/imagesInfos/geracaoAtiva.jpg";
 import fotoMulheres from "../../assets/imagesInfos/mulheres.jpg";
+import pastel from "../../assets/imagesInfos/pastel.png";
 import Figure from 'react-bootstrap/Figure';
 
 
@@ -19,7 +20,7 @@ const Infos = () => {
         width={171}
         height={180}
         alt="171x180"
-        src={fotoConferencia}
+        src={escolaDeMusica}
         className={styles.imagens}
       />
     </Figure>
@@ -49,7 +50,17 @@ const Infos = () => {
         width={171}
         height={180}
         alt="171x180"
-        src={fotoObreiros}
+        src={retiro}
+        className={styles.imagens}
+      />
+    </Figure>
+
+    <Figure>
+      <Figure.Image
+        width={171}
+        height={180}
+        alt="171x180"
+        src={pastel}
         className={styles.imagens}
       />
     </Figure>
