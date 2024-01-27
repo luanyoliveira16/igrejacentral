@@ -1,9 +1,7 @@
 import styles from "./Infos.module.css";
-import retiro from "../../assets/imagesInfos/retiro.jpg";
 import escolaDeMusica from "../../assets/imagesInfos/escolamusica.jpg";
 import fotoGeracaoAtiva from "../../assets/imagesInfos/geracaoAtiva.jpg";
-import fotoCoral from "../../assets/imagesInfos/coral.png";
-import pastel from "../../assets/imagesInfos/pastel.png";
+import fotoQuartaKids from "../../assets/imagesInfos/quartaKidsVolta.png";
 import Figure from 'react-bootstrap/Figure';
 
 
@@ -30,7 +28,7 @@ const Infos = () => {
         width={171}
         height={180}
         alt="171x180"
-        src={fotoCoral}
+        src={fotoQuartaKids}
         className={styles.imagens}
       />
     </Figure>
