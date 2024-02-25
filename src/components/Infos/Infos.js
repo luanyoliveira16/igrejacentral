@@ -1,5 +1,4 @@
 import styles from "./Infos.module.css";
-import escolaDeMusica from "../../assets/imagesInfos/escolamusica.jpg";
 import fotoGeracaoAtiva from "../../assets/imagesInfos/geracaoAtiva.jpg";
 import fotoQuartaKids from "../../assets/imagesInfos/quartaKidsVolta.png";
 import fotoOracaoDeboras from "../../assets/imagesInfos/oracaomulheres.jpg";
@@ -16,15 +15,7 @@ const Infos = () => {
           <h1 className={styles.title}>Informativos</h1>
 
    <div className={styles.infos}>
-          <Figure>
-      <Figure.Image
-        width={171}
-        height={180}
-        alt="171x180"
-        src={escolaDeMusica}
-        className={styles.imagens}
-      />
-    </Figure>
+    
 
     <Figure>
       <Figure.Image
