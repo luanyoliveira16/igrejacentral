@@ -24,7 +24,7 @@ const Register = () => {
           <div class="pt20 iconform" className={styles.iconform}>
             <a href="https://www.instagram.com/familia.central/" data-aos="fade-up" data-aos-duration="900"><i class="bi bi-instagram"></i></a>
             <a href="https://www.facebook.com/IBCRA42?locale=pt_BR" data-aos="fade-up" data-aos-duration="1500" styles="margin-left: 10px;"><i class="bi bi-facebook"></i></a>
-            <a href="https://www.youtube.com/" data-aos="fade-up" data-aos-duration="1900" styles="margin-left: 10px;"><i class="bi bi-youtube"></i></a>
+            <a href="https://www.youtube.com/@FamiliaCentralPodcast" data-aos="fade-up" data-aos-duration="1900" styles="margin-left: 10px;"><i class="bi bi-youtube"></i></a>
           </div>
 
         </div>

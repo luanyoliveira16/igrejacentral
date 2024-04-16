@@ -20,6 +20,7 @@ function ColorSchemesExample() {
           <Nav className={styles.nav}>   
             <AnchorLink href="#carousel" className={styles.teste}>Home</AnchorLink>
             <AnchorLink href="#about" className={styles.teste}>Quem Somos</AnchorLink>
+            <a href="#" className={styles.teste}>Ministérios</a>
             <AnchorLink href="#register" className={styles.teste}>Contato</AnchorLink>
           </Nav>
         </Container>

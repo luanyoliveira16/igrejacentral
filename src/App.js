@@ -5,6 +5,8 @@ import { detectOverflow } from '@popperjs/core';
 
 // pages
 import Home from "./pages/Home/Home.js";
+import Ministerios from "./pages/Ministérios/Ministerios.js";
+
 
 //components
 import Navbarr from "./components/Navbar/Navbar.js";
@@ -22,6 +24,8 @@ function App() {
        <div>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/" element={<Ministerios />} />
+
           
         </Routes>
        </div>
